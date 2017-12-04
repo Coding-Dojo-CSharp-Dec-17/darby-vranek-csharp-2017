@@ -1,0 +1,10 @@
+/Users/lyra/Documents/coding_dojo/csharp/csharp_fundamentals/fundamentals_i/bin/Debug/netcoreapp2.0/fundamentals_i.deps.json
+/Users/lyra/Documents/coding_dojo/csharp/csharp_fundamentals/fundamentals_i/bin/Debug/netcoreapp2.0/fundamentals_i.runtimeconfig.json
+/Users/lyra/Documents/coding_dojo/csharp/csharp_fundamentals/fundamentals_i/bin/Debug/netcoreapp2.0/fundamentals_i.runtimeconfig.dev.json
+/Users/lyra/Documents/coding_dojo/csharp/csharp_fundamentals/fundamentals_i/bin/Debug/netcoreapp2.0/fundamentals_i.dll
+/Users/lyra/Documents/coding_dojo/csharp/csharp_fundamentals/fundamentals_i/bin/Debug/netcoreapp2.0/fundamentals_i.pdb
+/Users/lyra/Documents/coding_dojo/csharp/csharp_fundamentals/fundamentals_i/obj/Debug/netcoreapp2.0/fundamentals_i.csproj.CoreCompileInputs.cache
+/Users/lyra/Documents/coding_dojo/csharp/csharp_fundamentals/fundamentals_i/obj/Debug/netcoreapp2.0/fundamentals_i.AssemblyInfoInputs.cache
+/Users/lyra/Documents/coding_dojo/csharp/csharp_fundamentals/fundamentals_i/obj/Debug/netcoreapp2.0/fundamentals_i.AssemblyInfo.cs
+/Users/lyra/Documents/coding_dojo/csharp/csharp_fundamentals/fundamentals_i/obj/Debug/netcoreapp2.0/fundamentals_i.dll
+/Users/lyra/Documents/coding_dojo/csharp/csharp_fundamentals/fundamentals_i/obj/Debug/netcoreapp2.0/fundamentals_i.pdb

@@ -1,0 +1,10 @@
+/Users/lyra/Documents/coding_dojo/csharp/csharp_fundamentals/collections_practice/bin/Debug/netcoreapp2.0/collections_practice.deps.json
+/Users/lyra/Documents/coding_dojo/csharp/csharp_fundamentals/collections_practice/bin/Debug/netcoreapp2.0/collections_practice.runtimeconfig.json
+/Users/lyra/Documents/coding_dojo/csharp/csharp_fundamentals/collections_practice/bin/Debug/netcoreapp2.0/collections_practice.runtimeconfig.dev.json
+/Users/lyra/Documents/coding_dojo/csharp/csharp_fundamentals/collections_practice/bin/Debug/netcoreapp2.0/collections_practice.dll
+/Users/lyra/Documents/coding_dojo/csharp/csharp_fundamentals/collections_practice/bin/Debug/netcoreapp2.0/collections_practice.pdb
+/Users/lyra/Documents/coding_dojo/csharp/csharp_fundamentals/collections_practice/obj/Debug/netcoreapp2.0/collections_practice.csproj.CoreCompileInputs.cache
+/Users/lyra/Documents/coding_dojo/csharp/csharp_fundamentals/collections_practice/obj/Debug/netcoreapp2.0/collections_practice.AssemblyInfoInputs.cache
+/Users/lyra/Documents/coding_dojo/csharp/csharp_fundamentals/collections_practice/obj/Debug/netcoreapp2.0/collections_practice.AssemblyInfo.cs
+/Users/lyra/Documents/coding_dojo/csharp/csharp_fundamentals/collections_practice/obj/Debug/netcoreapp2.0/collections_practice.dll
+/Users/lyra/Documents/coding_dojo/csharp/csharp_fundamentals/collections_practice/obj/Debug/netcoreapp2.0/collections_practice.pdb

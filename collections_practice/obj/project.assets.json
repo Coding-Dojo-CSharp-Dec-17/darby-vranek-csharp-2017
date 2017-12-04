@@ -670,11 +670,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/lyra/Documents/coding_dojo/csharp/csharp_fundamentals/fundamentals_i/fundamentals_i.csproj",
-      "projectName": "fundamentals_i",
-      "projectPath": "/Users/lyra/Documents/coding_dojo/csharp/csharp_fundamentals/fundamentals_i/fundamentals_i.csproj",
+      "projectUniqueName": "/Users/lyra/Documents/coding_dojo/csharp/csharp_fundamentals/collections_practice/collections_practice.csproj",
+      "projectName": "collections_practice",
+      "projectPath": "/Users/lyra/Documents/coding_dojo/csharp/csharp_fundamentals/collections_practice/collections_practice.csproj",
       "packagesPath": "/Users/lyra/.nuget/packages/",
-      "outputPath": "/Users/lyra/Documents/coding_dojo/csharp/csharp_fundamentals/fundamentals_i/obj/",
+      "outputPath": "/Users/lyra/Documents/coding_dojo/csharp/csharp_fundamentals/collections_practice/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
