@@ -1,0 +1,8 @@
+/Users/lyra/Documents/coding_dojo/csharp/csharp_fundamentals/fundamentals_i/bin/Debug/netcoreapp1.1/assignments.deps.json
+/Users/lyra/Documents/coding_dojo/csharp/csharp_fundamentals/fundamentals_i/bin/Debug/netcoreapp1.1/assignments.runtimeconfig.json
+/Users/lyra/Documents/coding_dojo/csharp/csharp_fundamentals/fundamentals_i/bin/Debug/netcoreapp1.1/assignments.runtimeconfig.dev.json
+/Users/lyra/Documents/coding_dojo/csharp/csharp_fundamentals/fundamentals_i/bin/Debug/netcoreapp1.1/assignments.dll
+/Users/lyra/Documents/coding_dojo/csharp/csharp_fundamentals/fundamentals_i/bin/Debug/netcoreapp1.1/assignments.pdb
+/Users/lyra/Documents/coding_dojo/csharp/csharp_fundamentals/fundamentals_i/obj/Debug/netcoreapp1.1/assignments.AssemblyInfo.cs
+/Users/lyra/Documents/coding_dojo/csharp/csharp_fundamentals/fundamentals_i/obj/Debug/netcoreapp1.1/assignments.dll
+/Users/lyra/Documents/coding_dojo/csharp/csharp_fundamentals/fundamentals_i/obj/Debug/netcoreapp1.1/assignments.pdb
