@@ -1,0 +1,10 @@
+/Users/lyra/Documents/coding_dojo/csharp/csharp_fundamentals/boxing_unboxing/bin/Debug/netcoreapp2.0/boxing_unboxing.deps.json
+/Users/lyra/Documents/coding_dojo/csharp/csharp_fundamentals/boxing_unboxing/bin/Debug/netcoreapp2.0/boxing_unboxing.runtimeconfig.json
+/Users/lyra/Documents/coding_dojo/csharp/csharp_fundamentals/boxing_unboxing/bin/Debug/netcoreapp2.0/boxing_unboxing.runtimeconfig.dev.json
+/Users/lyra/Documents/coding_dojo/csharp/csharp_fundamentals/boxing_unboxing/bin/Debug/netcoreapp2.0/boxing_unboxing.dll
+/Users/lyra/Documents/coding_dojo/csharp/csharp_fundamentals/boxing_unboxing/bin/Debug/netcoreapp2.0/boxing_unboxing.pdb
+/Users/lyra/Documents/coding_dojo/csharp/csharp_fundamentals/boxing_unboxing/obj/Debug/netcoreapp2.0/boxing_unboxing.csproj.CoreCompileInputs.cache
+/Users/lyra/Documents/coding_dojo/csharp/csharp_fundamentals/boxing_unboxing/obj/Debug/netcoreapp2.0/boxing_unboxing.AssemblyInfoInputs.cache
+/Users/lyra/Documents/coding_dojo/csharp/csharp_fundamentals/boxing_unboxing/obj/Debug/netcoreapp2.0/boxing_unboxing.AssemblyInfo.cs
+/Users/lyra/Documents/coding_dojo/csharp/csharp_fundamentals/boxing_unboxing/obj/Debug/netcoreapp2.0/boxing_unboxing.dll
+/Users/lyra/Documents/coding_dojo/csharp/csharp_fundamentals/boxing_unboxing/obj/Debug/netcoreapp2.0/boxing_unboxing.pdb
