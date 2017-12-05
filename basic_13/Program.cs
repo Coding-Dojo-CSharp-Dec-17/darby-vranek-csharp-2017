@@ -16,8 +16,8 @@ namespace basic_13
             // squareValues(new int[] {1, 5, 10, -2});
             // eliminateNegatives(new int[] {1, 5, 10, -2});
             // minMaxAverage(new int[] {1, 5, 10, -2});
-            // shiftValues(new int[] {1, 5, 10, 7, -2});
-            // numberToString(new object[] {-1,-3,2});
+            numberToString(new object[] {-1,-3,2});
+            shiftValues(new int[] {1, 5, 10, 7, -2});
         }
 
         // Write a program (sets of instructions) that would print all the numbers from 1 to 255.
