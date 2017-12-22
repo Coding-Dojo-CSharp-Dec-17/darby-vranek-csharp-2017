@@ -1,0 +1,10 @@
+/Users/lyra/Documents/coding_dojo/csharp/asp_net_core_i/time_display/bin/Debug/netcoreapp2.0/time_display.deps.json
+/Users/lyra/Documents/coding_dojo/csharp/asp_net_core_i/time_display/bin/Debug/netcoreapp2.0/time_display.runtimeconfig.json
+/Users/lyra/Documents/coding_dojo/csharp/asp_net_core_i/time_display/bin/Debug/netcoreapp2.0/time_display.runtimeconfig.dev.json
+/Users/lyra/Documents/coding_dojo/csharp/asp_net_core_i/time_display/bin/Debug/netcoreapp2.0/time_display.dll
+/Users/lyra/Documents/coding_dojo/csharp/asp_net_core_i/time_display/bin/Debug/netcoreapp2.0/time_display.pdb
+/Users/lyra/Documents/coding_dojo/csharp/asp_net_core_i/time_display/obj/Debug/netcoreapp2.0/time_display.csproj.CoreCompileInputs.cache
+/Users/lyra/Documents/coding_dojo/csharp/asp_net_core_i/time_display/obj/Debug/netcoreapp2.0/time_display.AssemblyInfoInputs.cache
+/Users/lyra/Documents/coding_dojo/csharp/asp_net_core_i/time_display/obj/Debug/netcoreapp2.0/time_display.AssemblyInfo.cs
+/Users/lyra/Documents/coding_dojo/csharp/asp_net_core_i/time_display/obj/Debug/netcoreapp2.0/time_display.dll
+/Users/lyra/Documents/coding_dojo/csharp/asp_net_core_i/time_display/obj/Debug/netcoreapp2.0/time_display.pdb

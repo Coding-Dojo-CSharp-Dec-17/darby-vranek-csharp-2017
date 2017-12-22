@@ -1,0 +1,12 @@
+<html>
+	<head>
+		<meta charset='utf-8'>
+		<title>Random Password Generator</title>
+	</head>
+	<body>
+		@using Microsoft.AspNetCore.Http
+		<h1>Random password (password #@ViewBag.Count)</h1>
+		<p>@ViewBag.RandomString</p>
+		<a href="/"><button>Generate</button></a>
+	</body>
+</html>

@@ -1,0 +1,10 @@
+/Users/lyra/Documents/coding_dojo/csharp/csharp_fundamentals/wizard_ninja_samurai/bin/Debug/netcoreapp2.0/wizard_ninja_samurai.deps.json
+/Users/lyra/Documents/coding_dojo/csharp/csharp_fundamentals/wizard_ninja_samurai/bin/Debug/netcoreapp2.0/wizard_ninja_samurai.runtimeconfig.json
+/Users/lyra/Documents/coding_dojo/csharp/csharp_fundamentals/wizard_ninja_samurai/bin/Debug/netcoreapp2.0/wizard_ninja_samurai.runtimeconfig.dev.json
+/Users/lyra/Documents/coding_dojo/csharp/csharp_fundamentals/wizard_ninja_samurai/bin/Debug/netcoreapp2.0/wizard_ninja_samurai.dll
+/Users/lyra/Documents/coding_dojo/csharp/csharp_fundamentals/wizard_ninja_samurai/bin/Debug/netcoreapp2.0/wizard_ninja_samurai.pdb
+/Users/lyra/Documents/coding_dojo/csharp/csharp_fundamentals/wizard_ninja_samurai/obj/Debug/netcoreapp2.0/wizard_ninja_samurai.csproj.CoreCompileInputs.cache
+/Users/lyra/Documents/coding_dojo/csharp/csharp_fundamentals/wizard_ninja_samurai/obj/Debug/netcoreapp2.0/wizard_ninja_samurai.AssemblyInfoInputs.cache
+/Users/lyra/Documents/coding_dojo/csharp/csharp_fundamentals/wizard_ninja_samurai/obj/Debug/netcoreapp2.0/wizard_ninja_samurai.AssemblyInfo.cs
+/Users/lyra/Documents/coding_dojo/csharp/csharp_fundamentals/wizard_ninja_samurai/obj/Debug/netcoreapp2.0/wizard_ninja_samurai.dll
+/Users/lyra/Documents/coding_dojo/csharp/csharp_fundamentals/wizard_ninja_samurai/obj/Debug/netcoreapp2.0/wizard_ninja_samurai.pdb

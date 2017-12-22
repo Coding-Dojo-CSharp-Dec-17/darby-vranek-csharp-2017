@@ -1,0 +1,10 @@
+/Users/lyra/Documents/coding_dojo/csharp/csharp_fundamentals/deck_of_cards/obj/Debug/netcoreapp2.0/deck_of_cards.csproj.CoreCompileInputs.cache
+/Users/lyra/Documents/coding_dojo/csharp/csharp_fundamentals/deck_of_cards/obj/Debug/netcoreapp2.0/deck_of_cards.AssemblyInfoInputs.cache
+/Users/lyra/Documents/coding_dojo/csharp/csharp_fundamentals/deck_of_cards/obj/Debug/netcoreapp2.0/deck_of_cards.AssemblyInfo.cs
+/Users/lyra/Documents/coding_dojo/csharp/csharp_fundamentals/deck_of_cards/bin/Debug/netcoreapp2.0/deck_of_cards.deps.json
+/Users/lyra/Documents/coding_dojo/csharp/csharp_fundamentals/deck_of_cards/bin/Debug/netcoreapp2.0/deck_of_cards.runtimeconfig.json
+/Users/lyra/Documents/coding_dojo/csharp/csharp_fundamentals/deck_of_cards/bin/Debug/netcoreapp2.0/deck_of_cards.runtimeconfig.dev.json
+/Users/lyra/Documents/coding_dojo/csharp/csharp_fundamentals/deck_of_cards/bin/Debug/netcoreapp2.0/deck_of_cards.dll
+/Users/lyra/Documents/coding_dojo/csharp/csharp_fundamentals/deck_of_cards/bin/Debug/netcoreapp2.0/deck_of_cards.pdb
+/Users/lyra/Documents/coding_dojo/csharp/csharp_fundamentals/deck_of_cards/obj/Debug/netcoreapp2.0/deck_of_cards.dll
+/Users/lyra/Documents/coding_dojo/csharp/csharp_fundamentals/deck_of_cards/obj/Debug/netcoreapp2.0/deck_of_cards.pdb

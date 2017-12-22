@@ -1,0 +1,10 @@
+/Users/lyra/Documents/coding_dojo/csharp/asp_net_core_i/dojodachi/bin/Debug/netcoreapp2.0/dojodachi.deps.json
+/Users/lyra/Documents/coding_dojo/csharp/asp_net_core_i/dojodachi/bin/Debug/netcoreapp2.0/dojodachi.runtimeconfig.json
+/Users/lyra/Documents/coding_dojo/csharp/asp_net_core_i/dojodachi/bin/Debug/netcoreapp2.0/dojodachi.runtimeconfig.dev.json
+/Users/lyra/Documents/coding_dojo/csharp/asp_net_core_i/dojodachi/bin/Debug/netcoreapp2.0/dojodachi.dll
+/Users/lyra/Documents/coding_dojo/csharp/asp_net_core_i/dojodachi/bin/Debug/netcoreapp2.0/dojodachi.pdb
+/Users/lyra/Documents/coding_dojo/csharp/asp_net_core_i/dojodachi/obj/Debug/netcoreapp2.0/dojodachi.csproj.CoreCompileInputs.cache
+/Users/lyra/Documents/coding_dojo/csharp/asp_net_core_i/dojodachi/obj/Debug/netcoreapp2.0/dojodachi.AssemblyInfoInputs.cache
+/Users/lyra/Documents/coding_dojo/csharp/asp_net_core_i/dojodachi/obj/Debug/netcoreapp2.0/dojodachi.AssemblyInfo.cs
+/Users/lyra/Documents/coding_dojo/csharp/asp_net_core_i/dojodachi/obj/Debug/netcoreapp2.0/dojodachi.dll
+/Users/lyra/Documents/coding_dojo/csharp/asp_net_core_i/dojodachi/obj/Debug/netcoreapp2.0/dojodachi.pdb
