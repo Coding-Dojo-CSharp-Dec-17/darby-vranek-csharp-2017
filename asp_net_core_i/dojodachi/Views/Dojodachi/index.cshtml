@@ -2,16 +2,73 @@
 	<head>
 		<meta charset='utf-8'>
 		<title>Dojodachi</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$(".reset").css("display", "none");
+				$("#feed").click(function() {
+					$.getJSON("/feed", function(response) {
+						if (response["message"].includes("Try again?")) {
+							$(".buttons").css("display", "none");
+							$(".reset").css("display", "block");
+						}
+						$("#message").text(response["message"]);
+						$("#fullness").text(response["dojodachi"]["fullness"]);
+						$("#meals").text(response["dojodachi"]["meals"]);
+					});
+				});
+				$("#play").click(function() {
+					$.getJSON("/play", function(response) {
+						if (response["message"].includes("Try again?")) {
+							$(".buttons").css("display", "none");
+							$(".reset").css("display", "block");
+						}
+						$("#message").text(response["message"]);
+						$("#energy").text(response["dojodachi"]["energy"]);
+						$("#happiness").text(response["dojodachi"]["happiness"]);
+					});
+				});
+				$("#work").click(function() {
+					$.getJSON("/work", function(response) {
+						if (response["message"].includes("Try again?")) {
+							$(".buttons").css("display", "none");
+							$(".reset").css("display", "block");
+						}
+						$("#message").text(response["message"]);
+						$("#meals").text(response["dojodachi"]["meals"]);
+						$("#energy").text(response["dojodachi"]["energy"]);
+					});
+				});
+				$("#sleep").click(function() {
+					$.getJSON("/sleep", function(response)
+					{
+						if (response["message"].includes("Try again?")) {
+							$(".buttons").css("display", "none");
+							$(".reset").css("display", "block");
+						}
+						$("#message").text(response["message"]);
+						$("#energy").text(response["dojodachi"]["energy"]);
+						$("#fullness").text(response["dojodachi"]["fullness"]);
+						$("#happiness").text(response["dojodachi"]["happiness"]);
+					});
+				});
+			});
+		</script>
 	</head>
 	<body>
-		<p>Fullness: @ViewBag.Dojodachi["fullness"]</p>
-		<p>Happiness: @ViewBag.Dojodachi["happiness"]</p>
-		<p>Meals: @ViewBag.Dojodachi["meals"]</p>
-		<p>Energy: @ViewBag.Dojodachi["energy"]</p>
-		<p>@ViewBag.Message</p>
-		<a href="/feed">Feed</a>
-		<a href="/play">Play</a>
-		<a href="/work">Work</a>
-		<a href="/sleep">Sleep</a>
+		<p>Fullness: <span id="fullness">@ViewBag.Dojodachi["fullness"]</span></p>
+		<p>Happiness: <span id="happiness">@ViewBag.Dojodachi["happiness"]</span></p>
+		<p>Meals: <span id="meals">@ViewBag.Dojodachi["meals"]</span></p>
+		<p>Energy: <span id="energy">@ViewBag.Dojodachi["energy"]</span></p>
+		<p id="message">@ViewBag.Message</p>
+		<div class="buttons">
+			<button id="feed">Feed</button>
+			<button id="play">Play</button>
+			<button id="work">Work</button>
+			<button id="sleep">Sleep</button>
+		</div>
+		<div class="reset">
+			<a href="/reset"><button id="reset_button">Reset</button></a>
+		</div>
 	</body>
 </html>
