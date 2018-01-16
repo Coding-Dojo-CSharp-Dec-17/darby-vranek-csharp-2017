@@ -1,0 +1,15 @@
+@{
+    ViewData["Title"] = "Quoting Dojo";
+}
+<h1>Here are all the awesome quotes!</h1>
+<a href="/">Go back</a>
+@{
+    foreach(var quote in ViewBag.Quotes)
+    {
+        <div class="quote">
+            <p>"@quote["quote"]"</p>
+            <p>–– @quote["name"] at @quote["created_at"]</p>
+            <hr>
+        </div>
+    }
+}

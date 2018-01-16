@@ -1,0 +1,25 @@
+@{
+    ViewData["Title"] = "Notes";
+}
+<h1>Notes</h1>
+<div class="notes">
+@{
+    foreach (var note in ViewBag.Notes)
+    {
+        <div class="@note["id"]">
+        <form action="Update" id="@note["id"]" method="post">
+            <input class="title_text" type="text" name="title" value="@note["title"]">
+            <textarea class="description_text" name="description" placeholder="Enter description here...">@note["description"]</textarea>
+        </form>
+                <button class="delete" type="submit" value="@note["id"]">delete</button>
+        </div>
+    }
+}
+</div>
+<hr />
+<div class="add_note">
+    <form id="add_note" action="AddNote" method="post">
+        <input type="text" name="title" placeholder="Insert note title here..." />
+        <input type="submit" value="Add Note" />
+    </form>
+</div>

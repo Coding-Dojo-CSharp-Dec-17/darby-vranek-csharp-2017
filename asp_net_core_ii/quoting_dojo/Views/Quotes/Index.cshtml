@@ -1,0 +1,25 @@
+@{
+    ViewData["Title"] = "QuotingDojo";
+}
+<h1>Welcome to QuotingDojo</h1>
+@{
+    if (ViewBag.Messages != null)
+    {
+        foreach(string message in ViewBag.Messages)
+        {
+            <p class="error">@message</p>
+        }
+    }
+}
+<form action="/quotes/" method="post">
+<div id="name">
+    <label for="name">Your Name:</label>
+    <input type="text" name="name" />
+</div>
+<div id="quote">
+    <label for="quote">Your quote:</label>
+    <textarea name="quote"></textarea>
+</div>
+<input type="submit" value="Add my quote!" />
+</form>
+<button onclick="location.href='/quotes/'" type="button">Skip to quotes!</button>
