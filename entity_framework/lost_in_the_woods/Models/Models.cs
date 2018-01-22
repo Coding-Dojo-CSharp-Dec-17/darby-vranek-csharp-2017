@@ -17,10 +17,10 @@ namespace lost_in_the_woods.Models
 		public string Description { get; set; }
 		
 		[Required]
-		public float Length { get; set; }
+		public float Trail_Length { get; set; }
 		
 		[Required]
-		public int Elevation { get; set; }
+		public int Elevation_Change { get; set; }
 		
 		[Required]
 		[Range(-90, 90)]

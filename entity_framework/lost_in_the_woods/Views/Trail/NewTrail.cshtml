@@ -16,24 +16,24 @@
 		<textarea asp-for="Description"></textarea>
 	</div>
 	<div class="input_field">
-		<span asp-validation-for="Length"></span>
-		<label asp-for="Length"></label>
-		<input type="float" asp-for="Length" />
+		<span asp-validation-for="Trail_Length"></span>
+		<label asp-for="Trail_Length"></label>
+		<input type="float" asp-for="Trail_Length" />
 	</div>
 	<div class="input_field">
-		<span asp-validation-for="Elevation"></span>
-		<label asp-for="Elevation"></label>
-		<input type="number" asp-for="Elevation" />
+		<span asp-validation-for="Elevation_Change"></span>
+		<label asp-for="Elevation_Change"></label>
+		<input type="number" asp-for="Elevation_Change" />
 	</div>
 	<div class="input_field">
 		<span asp-validation-for="Latitude"></span>
 		<label asp-for="Latitude"></label>
-		<input type="number" asp-for="Latitude" />
+		<input type="float" asp-for="Latitude" />
 	</div>
 	<div class="input_field">
 		<span asp-validation-for="Longitude"></span>
 		<label asp-for="Longitude"></label>
-		<input type="number" asp-for="Longitude" />
+		<input type="float" asp-for="Longitude" />
 	</div>
 	<input type="submit" value="Create Record!" />
 </form>

@@ -1,3 +1,23 @@
 @{
-    ViewData["Title"] = Trail;
+    ViewData["Title"] = ViewBag.Trail.Name;
 }
+@model lost_in_the_woods.Models.Trail
+<h1>@ViewBag.Trail.Name</h1>
+<p><a href="/">Home</a></p>
+<h2>Description</h2>
+<p>@ViewBag.Trail.Description</p>
+<h2>Trail Length</h2>
+<p>@ViewBag.Trail.Trail_Length miles</p>
+<h2>Elevation Change</h2>
+<p>@ViewBag.Trail.Elevation_Change feet</p>
+<h2>Latitude</h2>
+<p>@ViewBag.Trail.Latitude º</p>
+<h2>Longitude</h2>
+<p>@ViewBag.Trail.Longitude º</p>
+
+<iframe
+  width="600"
+  height="450"
+  frameborder="0" style="border:0"
+  src="@ViewBag.Src" allowfullscreen>
+</iframe>
