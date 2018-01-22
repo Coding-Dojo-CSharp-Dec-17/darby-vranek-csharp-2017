@@ -1,0 +1,45 @@
+@{
+    ViewData["Title"] = "Form Submission";
+}
+@model FormSubmission.Models.Submission
+<h1>Enter your information</h1>
+<div class="form_wrapper">
+    <form asp-controller="Submission" asp-action="Submit" method="post">
+        <div class="field">
+            <div>
+                <span asp-validation-for="FirstName"></span>
+            </div>
+            <label asp-for="FirstName"></label>
+            <input type="text" name="FirstName" />
+        </div>
+        <div class="field">
+            <div>
+                <span asp-validation-for="LastName"></span>
+            </div>
+            <label asp-for="LastName"></label>
+            <input type="text" name="LastName" />
+        </div>
+        <div class="field">
+            <div>
+                <span asp-validation-for="Age"></span>
+            </div>
+            <label asp-for="Age"></label>
+            <input type="number" name="Age" />
+        </div>
+        <div class="field">
+            <div>
+                <span asp-validation-for="Email"></span>
+            </div>
+            <label asp-for="Email"></label>
+            <input type="text" name="Email" />
+        </div>
+        <div class="password">
+            <div>
+                <span asp-validation-for="Password"></span>
+            </div>
+            <label asp-for="Password"></label>
+            <input type="password" name="Password" />
+        </div>
+        <input type="submit" value="Submit" />
+    </form>
+</div>

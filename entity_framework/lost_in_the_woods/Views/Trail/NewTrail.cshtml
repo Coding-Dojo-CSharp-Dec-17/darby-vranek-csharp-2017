@@ -1,0 +1,39 @@
+@{
+    ViewData["Title"] = "Lost in the Woods";
+}
+@model lost_in_the_woods.Models.Trail
+<h1>New Trail</h1>
+<h2><a href="/">Go Home</a></h2>
+<form asp-controller="Trail" asp-action="AddTrail" method="post">
+	<div class="input_field">
+		<span asp-validation-for="Name"></span>
+		<label asp-for="Name"></label>
+		<input type="text" asp-for="Name" />
+	</div>
+	<div class="input_field">
+		<span asp-validation-for="Description"></span>
+		<label asp-for="Description"></label>
+		<textarea asp-for="Description"></textarea>
+	</div>
+	<div class="input_field">
+		<span asp-validation-for="Length"></span>
+		<label asp-for="Length"></label>
+		<input type="float" asp-for="Length" />
+	</div>
+	<div class="input_field">
+		<span asp-validation-for="Elevation"></span>
+		<label asp-for="Elevation"></label>
+		<input type="number" asp-for="Elevation" />
+	</div>
+	<div class="input_field">
+		<span asp-validation-for="Latitude"></span>
+		<label asp-for="Latitude"></label>
+		<input type="number" asp-for="Latitude" />
+	</div>
+	<div class="input_field">
+		<span asp-validation-for="Longitude"></span>
+		<label asp-for="Longitude"></label>
+		<input type="number" asp-for="Longitude" />
+	</div>
+	<input type="submit" value="Create Record!" />
+</form>

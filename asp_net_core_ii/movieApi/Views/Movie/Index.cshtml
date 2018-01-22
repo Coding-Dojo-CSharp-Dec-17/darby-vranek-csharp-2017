@@ -1,0 +1,24 @@
+@{
+    ViewData["Title"] = "Movie Lookup";
+}
+<h1>Movie Lookup:</h1>
+<div class="search">
+    <form id="search_form" action="Search" method="post">
+        <label for="movie_title">Search for a movie: </label>
+        <input type="text" name="movie_title" />
+        <input type="submit" value="Search" />
+    </form>
+</div>
+<table id="results">
+    @{
+        foreach(var movie in ViewBag.Movies)
+        {
+            <tr>
+                <td>@movie["title"]</td>
+                <td>Rating: @movie["rating"]</td>
+                <td>Released @movie["release_date"]</td>
+            </tr>
+        }
+    }
+</table>
+<hr />
