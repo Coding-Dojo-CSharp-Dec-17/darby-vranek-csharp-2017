@@ -19,7 +19,7 @@ namespace DojoLeague.Controllers
 
 
         [HttpGet]
-        [Route("Dojo/{id}")]
+        [Route("Dojos/{id}")]
         public IActionResult Dojo(int id)
         {
 			ViewBag.Dojo = dojoFactory.FindById(id);
@@ -35,7 +35,7 @@ namespace DojoLeague.Controllers
 		}
 
 		[HttpPost]
-		[Route("AddDojo")]
+		[Route("Dojos/Add")]
 		public IActionResult AddDojo(Dojo dojo)
 		{
 			if (ModelState.IsValid)

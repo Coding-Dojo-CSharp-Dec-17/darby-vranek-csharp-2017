@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Http;
+using DojoLeague.Models;
 using DojoLeague.Factories;
 
 namespace DojoLeague.Controllers
@@ -17,9 +18,10 @@ namespace DojoLeague.Controllers
         }
 
         [HttpGet]
-        [Route("Ninja/{id}")]
+        [Route("Ninjas/{id}")]
                 public IActionResult Ninja(int id)
         {
+            ViewBag.Ninja = ninjaFactory.FindById(id);
             return View();
         }
 
@@ -28,15 +30,22 @@ namespace DojoLeague.Controllers
 		public IActionResult Ninjas()
 		{
             ViewBag.Ninjas = ninjaFactory.SelectAll();
+            ViewBag.Dojos = ninjaFactory.SelectAllDojos();
 			return View();
 		}
 
 
         [HttpPost]
-        [Route("AddNinja")]
-        public IActionResult AddNinja(NinjaController ninja)
+        [Route("Ninjas/Add")]
+        public IActionResult AddNinja(Ninja ninja, int Dojo_Id)
         {
-            return RedirectToAction("Ninjas");
+            if (ModelState.IsValid)
+            {
+                ninja.Dojo = ninjaFactory.FindDojoById(Dojo_Id);
+                ninjaFactory.Add(ninja);
+                return RedirectToAction("Ninjas");
+            }
+            return View("Ninjas");
         }
     }
 }

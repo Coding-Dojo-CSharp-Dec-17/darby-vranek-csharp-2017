@@ -1,1 +1,67 @@
-/*Write all of your CSS here*/
+* {
+	font-family: Rubik, sans-serif;
+}
+
+body {
+	background-color: blueviolet;
+}
+
+h1 {
+	font-family: 'Zilla Slab Highlight', monospace;
+}
+
+
+.half_screen {
+	margin: 25px;
+	background-color: white;
+	display: inline-block;
+	width: 350px;
+	height: 400px;
+	vertical-align: top;
+	padding: 10px 30px;
+	overflow-y: scroll;
+}
+
+.dojo_wrapper {
+	margin: 10px 25px;
+	background-color: white;
+	padding: 10px 30px;
+	width: 815px;
+}
+
+.wrapper {
+	margin: 25px;
+	height: 500;
+	vertical-align: top;
+	padding: 10px 30px;
+	overflow-y: scroll;
+}
+
+
+
+label {
+	width: 125px;
+	display: inline-block;
+	vertical-align: top;
+	font-family: 'Zilla Slab Highlight', monospace;
+	text-align: right;
+	margin-right: 10px;
+}
+
+input[type="text"], input[type="int"], textarea {
+	width: 150px;
+	border: 1px solid #444444;
+}
+
+textarea {
+	resize: none;
+}
+
+.input_field {
+	padding: 10px;
+}
+
+.submit_field {
+	margin-left: 150px;
+	display: block;
+}

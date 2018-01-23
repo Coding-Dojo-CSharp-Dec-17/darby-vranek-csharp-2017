@@ -14,13 +14,14 @@ namespace DojoLeague.Models
 		public string Name { get; set; }
 
 		[Required]
+		[Range(1, 10)]
 		public int Level { get; set; }
 
-		[Required]
+
 		public string Description { get; set; }
 
-		[Required]
-		public int Dojo_Id { get; set; }
+
+		public Dojo Dojo { get; set; }
 
 	}
 

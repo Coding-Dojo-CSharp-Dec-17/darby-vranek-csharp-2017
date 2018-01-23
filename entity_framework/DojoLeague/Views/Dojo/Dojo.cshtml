@@ -3,30 +3,32 @@
 }
 @model DojoLeague.Models.Dojo
 <div class="wrapper">
-	@{
-		if (ViewBag.Dojo != null)
-		{
-			<h1>@ViewBag.Dojo.Name</h1>
-			<p>Dojo Location: @ViewBag.Dojo.Location</p>
-			<p>Information: @ViewBag.Dojo.AdditionalInfo</p>
+	<div class="dojo_wrapper">
+		@{
+			if (ViewBag.Dojo != null)
+			{
+				<h1>@ViewBag.Dojo.Name</h1>
+				<p>Dojo Location: @ViewBag.Dojo.Location</p>
+				<p>Information: @ViewBag.Dojo.AdditionalInfo</p>
+			}
 		}
-	}
-</div>
-<div class="half_screen">
-	<h1>Current Members</h1>
-	<table>
-		<tr>
-			<th>Ninja</th>
-			<th>Action</th>
-		</tr>
-	</table>
-</div>
-<div class="half_screen">
-	<h1>Rogue Ninjas</h1>
-	<table>
-		<tr>
-			<th>Ninja</th>
-			<th>Action</th>
-		</tr>
-	</table>
+	</div>
+	<div class="half_screen">
+		<h1>Current Members</h1>
+		<table>
+			<tr>
+				<th>Ninja</th>
+				<th>Action</th>
+			</tr>
+		</table>
+	</div>
+	<div class="half_screen">
+		<h1>Rogue Ninjas</h1>
+		<table>
+			<tr>
+				<th>Ninja</th>
+				<th>Action</th>
+			</tr>
+		</table>
+	</div>
 </div>

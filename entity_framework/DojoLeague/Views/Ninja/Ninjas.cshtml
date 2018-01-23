@@ -16,8 +16,8 @@
 					foreach (Ninja ninja in ViewBag.Ninjas)
 					{
 						<tr>
-							<td><a href="Ninja/@ninja.Id">@ninja.Name</a></td>
-							<td><a href="Dojo/@ninja.Id">@ninja.Dojo.Name</a></td>
+							<td><a href="Ninjas/@ninja.Id">@ninja.Name</a></td>
+							<td><a href="Dojos/@ninja.Id">TITLE MISSING</a></td>
 						</tr>
 					}
 				}
@@ -26,7 +26,7 @@
 	</div>
 	<div class="half_screen">
 		<h1>Register A Ninja</h1>
-		<form asp-controller="Ninja" asp-action="AddNinja" method="post">
+		<form asp-controller="Ninja" asp-action="Ninjas/Add" method="post">
 			<div class="input_field">
 				<span class="validation_error" asp-validation-for="Name"></span>
 				<label asp-for="Name"></label>
@@ -38,26 +38,23 @@
 				<input type="int" asp-for="Level" />
 			</div>
 			<div class="input_field">
-				<label asp-for="Dojo"></label>
-				<select asp-for="Dojo">
-					<option value="-1">Rogue</option>
+				<label for="Dojo_Id"></label>
+				<select name="Dojo_Id">
+					<option value="">Rogue</option>
 					@{
-						if (ViewBag.Dojos != null)
+						foreach (Dojo dojo in ViewBag.Dojos)
 						{
-							foreach (Dojo dojo in ViewBag.Dojos)
-							{
-								<option value="@dojo.Id">@dojo.Name</option>
-							}
+							<option value="@dojo.Id">@dojo.Name</option>
 						}
 					}
 				</select>
 			</div>
-			<div class="input-field">
+			<div class="input_field">
 				<span class="validation_error" asp-validation-for="Description"></span>
 				<label asp-for="Description"></label>
 				<textarea asp-for="Description"></textarea>
 			</div>
-			<div class="input-field">
+			<div class="submit_field">
 				<input type="submit" value="Add" />
 			</div>
 		</form>
