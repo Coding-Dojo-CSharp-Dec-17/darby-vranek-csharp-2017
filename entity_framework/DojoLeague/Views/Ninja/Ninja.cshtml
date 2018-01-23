@@ -1,0 +1,15 @@
+@{
+    ViewData["Title"] = "Ninja";
+}
+@model DojoLeague.Models.Ninja
+<div class="wrapper">
+	@{
+		if (ViewBag.Ninja != null)
+		{
+			<h1>Name: @ViewBag.Ninja.Name</h1>
+			<p>Ninja Level: @ViewBag.Ninja.Level</p>
+			<p>Description: @ViewBag.Ninja.Description</p>
+			<p>Current Dojo: <a href="Dojo/@ViewBag.Ninja.Id">@ViewBag.Ninja.Name</a></p>
+		}
+	}
+</div>

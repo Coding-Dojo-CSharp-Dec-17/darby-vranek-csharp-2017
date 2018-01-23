@@ -32,7 +32,7 @@ namespace lost_in_the_woods.Controllers
         {
             Trail trail = trailFactory.FindById(id);
             ViewBag.Trail = trail;
-            ViewBag.Src = $"https://www.google.com/maps/embed/v1/search?key={googleKey}&q=({trail.Latitude},{trail.Longitude})";
+            ViewBag.Src = $"https://www.google.com/maps/embed/v1/search?key={googleKey}&q=({trail.Latitude},do{trail.Longitude})";
             return View();
         }
 
