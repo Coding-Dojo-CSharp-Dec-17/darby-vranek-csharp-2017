@@ -3,8 +3,13 @@ body {
 }
 
 label {
-	width: 100px;
+	width: 150px;
+	font-size: 18px;
+	font-weight: bold;
 	display: inline-block;
+	vertical-align: top;
+	text-align: right;
+	margin-right: 10px;
 }
 
 input[type="text"], textarea {
@@ -25,4 +30,14 @@ input[type="submit"] {
 
 .input_field {
 	padding: 5px;
+}
+
+textarea {
+	height: 100px;
+}
+
+span {
+	display: block;
+	color: red;
+	font-style: italic;
 }

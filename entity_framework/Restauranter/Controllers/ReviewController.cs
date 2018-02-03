@@ -56,14 +56,14 @@ namespace Restauranter.Controllers
                     Console.WriteLine(err);
                 }
             }
-            return RedirectToAction("Index");
+            return View("Index");
         }
 
         [HttpGet]
         [Route("Reviews")]
         public IActionResult Reviews()
         {
-            ViewBag.Reviews = _context.reviews.ToList();
+            ViewBag.Reviews = _context.reviews.OrderByDescending(review => review.created_at);
             return View();
         }
     }
