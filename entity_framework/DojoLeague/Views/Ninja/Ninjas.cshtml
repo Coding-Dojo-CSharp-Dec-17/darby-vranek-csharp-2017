@@ -17,7 +17,7 @@
 					{
 						<tr>
 							<td><a href="Ninjas/@ninja.Id">@ninja.Name</a></td>
-							<td><a href="Dojos/@ninja.Id">TITLE MISSING</a></td>
+							<td><a href="Dojos/@ninja.Dojo.Id">@ninja.Dojo.Name</a></td>
 						</tr>
 					}
 				}
@@ -40,7 +40,6 @@
 			<div class="input_field">
 				<label for="Dojo_Id"></label>
 				<select name="Dojo_Id">
-					<option value="">Rogue</option>
 					@{
 						foreach (Dojo dojo in ViewBag.Dojos)
 						{

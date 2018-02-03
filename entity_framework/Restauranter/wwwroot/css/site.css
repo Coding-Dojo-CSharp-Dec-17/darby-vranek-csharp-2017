@@ -1,0 +1,28 @@
+body {
+	background-color: lightslategray;
+}
+
+label {
+	width: 100px;
+	display: inline-block;
+}
+
+input[type="text"], textarea {
+	width: 200px;
+}
+
+input[type="submit"] {
+	margin: 5px 0px;
+
+}
+
+.wrapper {
+	background-color: white;
+	padding: 50px;
+	margin: 50px auto;
+	width: 50%;
+}
+
+.input_field {
+	padding: 5px;
+}

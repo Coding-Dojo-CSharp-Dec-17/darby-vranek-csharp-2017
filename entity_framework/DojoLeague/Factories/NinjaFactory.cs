@@ -32,10 +32,12 @@ namespace DojoLeague.Factories
 			{
 				string query =
 				@"
-				SELECT * FROM `ninjas`;
+				SELECT * FROM `ninjas`
+				JOIN dojos ON ninjas.dojo_id
+				WHERE dojos.id = ninjas.dojo_id;
 				";
 				dbCon.Open();
-				return dbCon.Query<Ninja>(query);
+				return dbCon.Query<Ninja, Dojo, Ninja>(query, (ninja, dojo) => { ninja.Dojo = dojo; return ninja; });
 			}
 		}
 
@@ -83,6 +85,21 @@ namespace DojoLeague.Factories
 			{
 				dbCon.Open();
 				return dbCon.Query<Dojo>("SELECT * FROM dojos WHERE id = @Id", new { Id = id }).FirstOrDefault();
+			}
+		}
+
+		public void UpdateDojoId(int dojoId, int ninjaId)
+		{
+			using (IDbConnection dbCon = connection)
+			{
+				string query =
+				@"
+					UPDATE ninjas
+					SET dojo_id = @dojo
+					WHERE id = @ninja
+				";
+				dbCon.Open();
+				dbCon.Execute(query, new { dojo = dojoId, ninja = ninjaId});
 			}
 		}
 	}

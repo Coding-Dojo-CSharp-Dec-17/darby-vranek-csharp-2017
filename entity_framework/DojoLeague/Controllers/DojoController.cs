@@ -23,6 +23,8 @@ namespace DojoLeague.Controllers
         public IActionResult Dojo(int id)
         {
 			ViewBag.Dojo = dojoFactory.FindById(id);
+			ViewBag.DojoNinjas = dojoFactory.SelectNinjasByDojo(id);
+			ViewBag.RogueNinjas = dojoFactory.SelectNinjasByDojo(0);
             return View();
         }
 

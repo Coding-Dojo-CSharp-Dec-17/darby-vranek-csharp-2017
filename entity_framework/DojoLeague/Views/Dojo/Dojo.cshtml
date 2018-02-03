@@ -20,6 +20,15 @@
 				<th>Ninja</th>
 				<th>Action</th>
 			</tr>
+			@{
+				foreach (Ninja ninja in ViewBag.DojoNinjas)
+				{
+					<tr>
+						<td>@ninja.Name</td>
+						<td><a href="/Dojos/@ninja.Dojo.Id/Banish/@ninja.Id">Banish!</a></td>
+					</tr>
+				}
+			}
 		</table>
 	</div>
 	<div class="half_screen">

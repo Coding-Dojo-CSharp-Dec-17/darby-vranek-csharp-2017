@@ -47,5 +47,21 @@ namespace DojoLeague.Controllers
             }
             return View("Ninjas");
         }
+
+        [HttpGet]
+		[Route("Dojos/{dojoId}/Recruit/{ninjaId}")]
+		public IActionResult Recruit(int dojoId, int ninjaId)
+		{
+            ninjaFactory.UpdateDojoId(dojoId, ninjaId);
+			return RedirectToAction("Dojo", new { id = dojoId });
+		}
+
+        [HttpGet]
+        [Route("Dojos/{dojoId}/Banish/{ninjaId}")]
+        public IActionResult Banish(int dojoId, int ninjaId)
+        {
+            ninjaFactory.UpdateDojoId(0, ninjaId);
+            return RedirectToAction("Dojo", new { id = dojoId });
+        }
     }
 }

@@ -1,0 +1,16 @@
+@{
+    ViewData["Title"] = "Reviews";
+}
+<div class="wrapper">
+	<h1>Reviews</h1>
+	@if (ViewBag.Reviews != null)
+	{
+		@foreach (Review review in ViewBag.Reviews)
+		{
+			<h2>Review for: @review.restaurant - - - @review.stars</h2>
+			<h3>Reviewer: @review.reviewer, @review.visit_date</h3>
+			<p>@review.review</p>
+			<hr />
+		}
+	}
+</div>

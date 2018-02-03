@@ -39,6 +39,22 @@ namespace DojoLeague.Factories
 			}
 		}
 
+		public IEnumerable<Ninja> SelectNinjasByDojo(int id)
+		{
+			using (IDbConnection dbCon = connection)
+			{
+				string query =
+				$@"
+				SELECT * FROM `ninjas`
+				JOIN dojos ON ninjas.dojo_id
+				WHERE dojos.id = ninjas.dojo_id
+				AND ninjas.dojo_id = {id};
+				";
+				dbCon.Open();
+				return dbCon.Query<Ninja, Dojo, Ninja>(query, (ninja, dojo) => { ninja.Dojo = dojo; return ninja; });
+			}
+		}
+
 		public void Add(Dojo dojo)
 		{
 			using (IDbConnection dbCon = connection)
